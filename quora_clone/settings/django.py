@@ -10,7 +10,7 @@ SECRET_KEY = "django-insecure-$tpy(q6^vw(+1&7*x6qd3qn9^20(@###y1+_i-4)@h4rz-=qri
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['0.0.0.0', '51.20.32.202', '172.31.38.218']
 
 AUTH_USER_MODEL = 'authentication.User'
 AUTHENTICATION_BACKENDS = ['authentication.backends.EmailBackend']
